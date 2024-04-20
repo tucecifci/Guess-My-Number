@@ -56,7 +56,6 @@ document.querySelector(".check").addEventListener("click", function () {
   //     document.querySelector(".score").textContent = 0;
   //     document.querySelector("body").style.backgroundColor = "#C82300";
   //   }
-
   //   //When guess is too low
   // } else if (guess < secretNumber) {
   //   if (score > 1) {
@@ -70,7 +69,6 @@ document.querySelector(".check").addEventListener("click", function () {
   //   }
   // }
 });
-
 document.querySelector(".again").addEventListener("click", function () {
   document.querySelector(".score").textContent = 10;
   secretNumber = Math.trunc(Math.random() * 20) + 1;
